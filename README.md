@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🔵 Logistic Classification from Scratch  
+#  Logistic Classification from Scratch  
 ### *Gradient Descent · Log-Loss Optimization · Decision Boundary Visualization*
 
 </div>
 
-## 📌 Overview
+##  Overview
 This project implements a **binary linear classifier** trained entirely **from scratch**, without using machine learning libraries such as scikit-learn.  
 The goal of this work is to demonstrate how a classic machine-learning model can be implemented manually, including:
 
@@ -19,9 +19,9 @@ This makes the project especially useful for students and developers who want de
 
 ---
 
-## 🎯 The Essence of the Model Training
+##  The Essence of the Model Training
 
-### ### 🔍 What the Model Tries to Learn
+### ###  What the Model Tries to Learn
 We have a dataset consisting of two numerical features and binary class labels  
 **+1** (blue class) and **–1** (red class).
 
@@ -40,7 +40,7 @@ The weights \( w_0, w_1, w_2 \) define the **decision boundary**, which is a str
 
 ---
 
-### 🧠 Why Log-Loss?
+###  Why Log-Loss?
 We optimize the **logarithmic loss**:
 
 \[
@@ -58,7 +58,7 @@ Its key properties:
 
 ---
 
-### ⚙️ How The Model Learns
+###  How The Model Learns
 
 Training is performed using **gradient descent**:
 
@@ -79,7 +79,7 @@ As a result, weights gradually shift in a direction that:
 
 ---
 
-### 📈 What the Final Model Represents
+###  What the Final Model Represents
 After training, the obtained weights define a **linear decision boundary**:
 
 \[
@@ -97,7 +97,7 @@ This gives an intuitive and visual understanding of how the model behaves.
 
 ---
 
-## 🧠 Requirements
+##  Requirements
 - Python 3.x  
 - NumPy  
 - Matplotlib  
